@@ -3,27 +3,29 @@ import React from "react";
 function Nav({ displayedPage, pageChanger }) {
     return (
         <nav>
-            This is the Nav Bar
-            <ul>
+            <ul className="p-0 m-0 d-flex align-items-end justify-content-evenly list-unstyled">
                 <li>
                     <a 
                         href="#about"
                         onClick={() => pageChanger('About')}
-                        className={displayedPage === 'About' ? 'active-nav' : 'inactive-nav'}>About
+                        className={displayedPage === 'About' ? 'active-nav' : 'inactive-nav'}
+                        class="text-decoration-none main-color">About
                     </a>
                 </li>
                 <li>
                     <a
-                        href="#projects"
+                        href="#projects"                       
                         onClick={() => pageChanger('Projects')}
-                        className={displayedPage === 'Projects' ? 'active-nav' : 'inactive-nav'}>Projects
+                        className={displayedPage === 'Projects' ? 'active-nav' : 'inactive-nav'}
+                        class="text-decoration-none main-color">Projects
                     </a>
                 </li>
                 <li>
                     <a
                         href="#contact"
                         onClick={() => pageChanger('Contact')}
-                        className={displayedPage === 'Contact' ? 'active-nav' : 'inactive-nav'}>Contact
+                        className={displayedPage === 'Contact' ? 'active-nav' : 'inactive-nav'}
+                        class="text-decoration-none main-color">Contact
 
                     </a>
                 </li>
