@@ -1,0 +1,19 @@
+.accent1 {
+    background-color: #51c6e9;
+    height: 100px;
+    background-image: linear-gradient(#25add6dc, #ffffff);
+}
+
+.accent2 {
+    background-color: #382200;
+}
+
+.main-color {
+    color: #001952;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    
+}

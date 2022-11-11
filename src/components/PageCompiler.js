@@ -24,7 +24,7 @@ function PageCompiler() {
     const pageChanger = (page) => setDisplayedPage(page);
 
     return (
-        <body>
+        <body className="d-flex flex-column min-vh-100">
 
             <Header displayedPage={displayedPage} pageChanger={pageChanger} />
         
