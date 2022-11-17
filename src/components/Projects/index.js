@@ -2,9 +2,11 @@ import React from "react";
 
 function Projects() {
     return (
-        <div>
-            This is the Projects Page
-        </div>
+        <section id="Projects">
+            <div>
+                This is the Projects Page
+            </div>
+        </section>    
     )
 
 }
