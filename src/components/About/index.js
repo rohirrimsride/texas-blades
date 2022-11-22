@@ -4,9 +4,11 @@ function About() {
     return (
         <section id="About">
             <div className="container px-4">
-                <h2>About Us</h2>
+                <h3>About Us</h3>
                 <br />
-                Texas Blades is a locally owned and run company.  We do arbor care, landscaping and handywork.  
+                <p className="font">
+                    Texas Blades is a locally owned and operated company.  We do arbor care, landscaping and handywork.  
+                </p>
                 <ul>
                     <li></li>
                     <li></li>

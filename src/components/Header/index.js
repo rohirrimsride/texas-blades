@@ -4,7 +4,7 @@ import logo from '../../assets/images/texas-blades-hero2.jpg'
 
 function Header({ displayedPage, pageChanger }) {
     return (
-        <div className="container-fluid">
+        <div className="shadow-lg container-fluid">
             <div className="row navbar accent1 sticky">
                 <h1 className="col-3 justify-content-start main-color"><a className="main-color text-decoration-none" href="#Home">TB</a></h1>
                 
